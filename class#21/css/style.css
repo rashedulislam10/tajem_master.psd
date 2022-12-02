@@ -1,0 +1,348 @@
+/* all common css state */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.clr{
+    clear: both;
+}
+ul.ol{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
+@font-face{
+    src: url(../myriad-pro-cufonfonts/MYRIADPRO-REGULAR.OTF);
+    font-family: 'myriadpro-regular';
+}
+/* all common css end*/
+
+/* header part stat */
+.navbar {
+	top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: #ffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: .4s;
+} 
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #00e0d0;
+}
+/* header part end */
+
+/* bana part stat */
+#banar_part{
+    background: url(../imges/tajem_master.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.overly{
+    padding-top: 230px;
+    padding-bottom: 205px;
+    background: linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85));
+}
+.banar_text h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+}
+.banar_text h1::after{
+    position: absolute;
+    height: 1px;
+    width: 50px;
+    background: #00e0d0;
+    content: "";
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+.banar_text p {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	padding: 50px 181px;
+    line-height: 24px;
+}
+.common_btm a{
+    padding: 15px;
+    border: 1px solid #00e0d0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #00e0d0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Hammersmith One', sans-serif;
+}
+/* bana part end */
+
+/* story part stat */
+#story_part{
+    padding: 70px 0;
+    background: #fff;
+}
+.stor_img_part{
+    text-align: right;
+}
+.story_text_part h3{
+    color: #413d4b;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 30px;
+}
+.story_text_part p{
+    color: #413d4b;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.story_text_part .text_scnd{
+    padding: 30px 0;
+}
+/* story part end */
+
+/* play part stat */
+#play_part{
+    background: url(../imges/master.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.play_overly{
+    padding: 200px 0;
+    background:  linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85));
+}
+.play_text h3{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 34px;
+}
+/* play part end */
+
+
+/* sarvies part stat */
+#sarvies_part{
+    padding-top: 70px;
+    padding-bottom: 104px;
+    background: #fff;
+}
+.common_part_text h3{
+    color: #413d4b;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 15px;
+}
+.common_part_text p{ 
+    color: #2f2d35;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+}
+.common_part_text p::after{
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    background: #c6c4c9;
+    content: "";
+    left: 50%;
+    bottom: -18px;
+    transform: translateX(-50%);
+}
+.sarves_pb{
+    margin-top: 80px;
+}
+.sarvies_part_icon_text h3{
+    color: #413d4b;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+.sarvies_part_icon_text p{
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+    width: 226px;
+    margin: 0 auto;
+}
+/* sarvies part end */
+
+/* team part state */
+#team_part{
+    background: url(../imges/garden.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.team_overly{
+    padding: 70px 0;
+    background:  linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85));
+}
+.team_test h3{
+    color: #fff;
+}
+.team_test p{
+    color: #fff;
+}
+.team_mr{
+    padding-top: 50px;
+}
+.team_part_text{
+    border: 1px solid #7c7991;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.team_part_text h3{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 12px;
+}
+.team_part_text p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.team_part_img img{
+    height: 250px;
+    width: 100%;
+}
+.team_after_text p{
+    color: #f3f3f3ff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 28px;
+}
+/* team part end */
+
+/* work part state */
+#work_part{
+    padding: 70px 0;
+    background: #ffff;
+}
+.work_part_btn{
+    padding-top: 30px;
+}
+.work_part_btn a{
+    padding: 10px;
+    border: 1px solid #dddd;
+    color: #413d4b;
+    font-family: 'myriadpro-regular';
+    margin-right: 10px;
+}
+.work_part_img_gallay{
+    padding-top: 50px;
+}
+.work_part_img{
+    width: 266px;
+    height: 200px;
+}
+.work_part_img{
+    height: 100%;
+    width: 100%;
+}
+.work_part_after_btn{
+    padding-top: 70px;
+}
+/* work part end */
+
+/* quatos part state */
+#quatos_part{
+    background: url(../imges/koasa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.quatos_part_overly{
+    padding-top: 120px;
+    padding-bottom: 70px;
+    background:  linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85));
+}
+.quatos_part_text{}
+.quatos_part_text i{
+    font-size: 40px;
+    color: #fff;
+}
+.quatos_part_text p{
+    font-size: 16px;
+    font-family: 'myriadpro-regular';
+    line-height: 26px;
+    width: 744px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.quatos_part_text h3{
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 45px;
+}
+.quatos_part_text h4{
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 12px;
+}
+/* quatos part end */
+
+/* contacte part state */
+#contacte_part{
+    padding: 70px 0;
+}
+.contacte_com_part{
+    color: #413d4b;   
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+}
+.f_from{
+    border: 2px solid #e5e5e5;
+    border-radius: 0px;
+}
+.f_from::placeholder{
+    color: #acabb1;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+/* contacte part end */
+
+
+/* work part state */
+/* work part end */
+/* work part state */
+/* work part end */
